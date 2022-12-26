@@ -1,0 +1,28 @@
+ 
+ {
+ 	"description": "Visa card test case",
+ 	"basicInfo": {
+ 		"createdDate": "march-10-2022",
+ 		"merchantName": "Uber"
+ 	},
+ 	"entitySystem": {
+ 		"tradingName": "Sundar",
+ 		"isFranchise": true
+ 	},
+ 	"address": {
+ 		"addressLine1": "Vidyanagar",
+ 		"addressLine2": "hassan",
+ 		"isBusinessName": false
+ 	},
+ 	"appType": {
+ 		"nominatedCard": "Amex",
+ 		"isMpmSheet": false,
+ 		"productType": "Services",
+ 		"selectedProduct": "Surcharge",
+ 		"fulfilmentType": "Option1",
+ 		"callerName": "Manav",
+ 		"applicationCreatedFor": "TPS"
+ 	}
+ 	
+ }
+ 

@@ -14,11 +14,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class JsonToPojoConverterUtil {
 
 	private static final String VISA_TEST_JSON = "/visa-data.json";
-
+	private static final String VISA_TEST_MASTER_CARD = "/visa-data_MC.json";
 	public static TestDataMapper getListOfTestDataMapper(TestCaseType testCaseType) {
 		switch (testCaseType) {
 		case VISA_TYPE:
 			return getListOfTestDataMapper(VISA_TEST_JSON);
+		case MASTER_CARD_TYPE:
+			return getListOfTestDataMapper(VISA_TEST_MASTER_CARD);
 		}
 		
 		return null;

@@ -3,25 +3,25 @@
  	"description": "Visa card test case",
  	"basicInfo": {
  		"createdDate": "march-10-2022",
- 		"merchantName": "Uber"
+ 		"merchantName": "OLA"
  	},
  	"entitySystem": {
- 		"tradingName": "Sundar",
- 		"isFranchise": true
+ 		"tradingName": "Praveen",
+ 		"isFranchise": false
  	},
  	"address": {
  		"addressLine1": "Vidyanagar",
  		"addressLine2": "hassan",
- 		"isBusinessName": false
+ 		"isBusinessName": true
  	},
  	"appType": {
- 		"nominatedCard": "Visa",
- 		"isMpmSheet": false,
+ 		"nominatedCard": "Master Card",
+ 		"isMpmSheet": true,
  		"productType": "Services",
  		"selectedProduct": "Surcharge",
  		"fulfilmentType": "Option1",
  		"callerName": "Manav",
- 		"applicationCreatedFor": "TPS"
+ 		"applicationCreatedFor": "CFS"
  	}
  	
  }
